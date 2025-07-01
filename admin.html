@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administration Elr Market</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   
+<header>
+    <div class="container">
+        <h1>
+            <img src="./logo.png" alt="Logo" class="logo">
+            <span class="site-name">Elr Market</span>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="product.html">Produits</a></li>
+                <li><a href="cart.html">Panier</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <main>
+        <section class="container" id="admin-dashboard">
+            <h2>Espace Administration</h2>
+            <p>Pour accéder au panneau d'administration, veuillez vous connecter. Cette page vous redirigera vers l'interface de gestion PHP.</p>
+            <p>Cliquez ici pour accéder : <a href="http://localhost:8000/backend/admin/login.php">Accéder à l'Admin Backend</a></p>
+            <p>
+                **Identifiants par défaut (à changer en production) :**<br>
+                Nom d'utilisateur: <code>admin</code><br>
+                Mot de passe: <code>password123</code>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Elr Market. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Aucun app.js n'est requis ici, car la gestion admin est purement PHP côté backend -->
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votre Panier - Elr Market</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ 
+<header>
+    <div class="container">
+        <h1>
+            <img src="./logo.png" alt="Logo" class="logo">
+            <span class="site-name">Elr Market</span>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="product.html">Produits</a></li>
+                <li><a href="cart.html">Panier</a></li>
+                <li><a href="admin.html">Admin</a></li>
+            </ul>
+        </nav>
+    </div>
+</script>
+</header>
+    <main>
+        <section class="container">
+            <h2>Votre Panier</h2>
+            <div id="cart-items" class="cart-items">
+                <!-- Les articles du panier seront chargés ici par JavaScript -->
+                <p>Votre panier est vide.</p>
+            </div>
+            <div class="cart-summary">
+                Total du panier : <span id="cart-total">0.00 €</span>
+                <a href="checkout.html" class="cart-checkout-btn">Passer à la commande</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Elr Market. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
