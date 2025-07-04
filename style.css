@@ -27,7 +27,7 @@ body {
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-image: url('/frontend/huile.jpg'), linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%); /*Dégradé moderne */
+    background-image: url('huile.jpg'), linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%); /*Dégradé moderne */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -137,7 +137,7 @@ nav ul li a:hover::after {
 
 /* Section Hero/Bienvenue */
 .hero {
-   background-image:url('/frontend/huile.jpg'), linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%); /*Dégradé moderne */
+   background-image:url('huile.jpg'), linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%); /*Dégradé moderne */
     color: #fff;
     text-align: center;
     padding: 80px 20px; /* Plus de padding */
